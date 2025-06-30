@@ -14,10 +14,10 @@ const Project = ({ title, category, image }) => {
 		>
 			<Link to="/projects/single-project" aria-label="Single Project">
 				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-					<div>
+					<div className="h-full">
 						<img
 							src={image}
-							className="h-96 max-w-full rounded-lg"
+							className="rounded-t-xl border-none h-full w-full r "
 							alt="Single Project"
 						/>
 					</div>
