@@ -1,4 +1,4 @@
-import  Button from "../reusable/Button";
+import  {Button} from "../reusable/Button";
 import { Download } from "lucide-react";
 
 const Hero = () => {

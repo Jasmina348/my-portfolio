@@ -1,5 +1,5 @@
 
-import Button  from "../reusable/Button";
+import {Button}  from "../reusable/Button";
 import { User } from "lucide-react";
 import avatarImage from "../../images/avatar.jpg";
 
